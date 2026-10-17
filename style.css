@@ -1,0 +1,26 @@
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: colorChange; 
+  animation-duration: 3s;     
+  animation-iteration-count: infinite; 
+  animation-direction: alternate;      
+}
+
+
+@keyframes colorChange {
+  0% {
+    background-color: #3498db;
+    transform: scale(1);
+  }
+  50% {
+    background-color: #e74c3c;
+    transform: scale(1.2);
+  }
+  100% {
+    background-color: #2ecc71;
+    transform: scale(1);
+  }
+}
